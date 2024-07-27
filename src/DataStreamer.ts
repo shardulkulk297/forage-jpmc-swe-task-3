@@ -4,8 +4,8 @@ export interface Order {
 }
 export interface ServerRespond {
   stock: string,
-  top_bid: Order,
-  top_ask: Order,
+  top_ask: number;
+  top_bid: number;
   timestamp: Date,
 }
 
